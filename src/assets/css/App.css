@@ -1,0 +1,102 @@
+*{
+  transition: all ease 1s;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #378fe8 #f0f0f0;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f0f0f0;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #378fe8;
+    border-radius: 50px;
+    border: 0px solid #ffffff;
+  }
+
+.background{
+  background-image: url('../img/Background\ 2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.avatar{
+  width: 22rem;
+  height: 22rem;
+  border-radius: 50%;
+}
+
+.github{
+  color: #1A1A1A;
+}
+
+.instagram{
+  color: #8700F1;
+}
+
+@supports (background-clip: text) {
+  .instagram{
+    background: linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.linkedin{
+  color: #196EBD;
+}
+
+.about{
+  background-color: #0075FF;
+  color: white;
+  padding: 24px;
+  text-align: center;
+  height: auto;
+}
+
+.shape{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-color: #0075FF;
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.pill{
+  font-weight: bold;
+  padding-inline: 25px;
+  padding-block: 4px;
+}
+
+.pill:hover{
+  cursor: default;
+  opacity: 0.7;
+}
+
+/* Animations */
+
+.animation-in{
+  animation: animation-in 1s ease-in-out;
+}
+
+@keyframes animation-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -25,3 +25,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+footer{
+  color: white;
+  background: rgb(0,164,255);
+  background: linear-gradient(312deg, rgba(0,164,255,1) 0%, rgba(0,116,255,1) 100%); 
+}

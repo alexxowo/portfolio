@@ -8,17 +8,24 @@ export default function Projects() {
       <div className="flex flex-row flex-wrap items-center justify-center gap-6 mt-3">
       <Card width="400px">
           <h1 className='text-3xl font-bold text-primary'>Network Monitor</h1>
-          <span className='my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nihil magnam incidunt. Suscipit dicta recusandae sunt laboriosam consequuntur itaque eius? Suscipit accusantium esse perferendis provident facere autem dolorum aut earum!</span>
+          <span className='my-4'>
+            Monitor and get statistics of your home network or a small office.
+            This project is inspired in <a href="https://zabbix.com" className='text-blue-600 hover:text-blue-700'>Zabbix.</a>
+          </span>
           <img src="https://via.placeholder.com/300" className='w-64 rounded-3xl' alt="" />
         </Card>
         <Card width="400px">
-          <h1 className='text-3xl font-bold text-primary'>RGB Controller</h1>
-          <span className='my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nihil magnam incidunt. Suscipit dicta recusandae sunt laboriosam consequuntur itaque eius? Suscipit accusantium esse perferendis provident facere autem dolorum aut earum!</span>
+          <h1 className='text-3xl font-bold text-primary'>Anviz Controller</h1>
+          <span className='my-4'>
+            Communicate and obtain the records of your access to your Anviz biometric devices.
+          </span>
           <img src="https://via.placeholder.com/300" className='w-64 rounded-3xl' alt="" />
         </Card>
         <Card width="400px">
-          <h1 className='text-3xl font-bold text-primary'>Refer System</h1>
-          <span className='my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nihil magnam incidunt. Suscipit dicta recusandae sunt laboriosam consequuntur itaque eius? Suscipit accusantium esse perferendis provident facere autem dolorum aut earum!</span>
+          <h1 className='text-3xl font-bold text-primary'>Crypto tracker</h1>
+          <span className='my-4'>
+            Track your trusted cryptocurrencies and study their behavior
+          </span>
           <img src="https://via.placeholder.com/300" className='w-64 rounded-3xl' alt="" />
         </Card>
       </div>

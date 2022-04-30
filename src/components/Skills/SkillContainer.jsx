@@ -12,6 +12,7 @@ export default function SkillContainer() {
       <SkillPill name='TypeScript' color='#0060F1' textColor='white'/>
       <SkillPill name='C#' color='#8700F1' textColor='white'/>
       <SkillPill name='Linux' color='#1A1A1A' textColor='white'/>
+      <SkillPill name='Bash' color='#2e1d45' textColor='white'/>
       <SkillPill name='MySQL' color='#009ccc' textColor='white'/>
       <SkillPill name='PostgreSQL' color='#00BB78' textColor='white'/>
       <SkillPill name='Elastic' color='#F00568' textColor='white'/>

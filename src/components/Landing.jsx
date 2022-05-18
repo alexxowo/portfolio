@@ -5,6 +5,7 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 
 import Navbar from './Navbar'
 import Photo from '../assets/img/avatar.png'
+import Bg from '../assets/img/Background 2.png'
 
 export default function Landing() {
   return (

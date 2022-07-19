@@ -12,7 +12,7 @@ export default function Landing() {
     <>
       <header className='w-screen h-screen flex flex-col background'>
         <Navbar />
-        <div className='flex flex-row justify-center items-center w-screen h-screen'>
+        <div className='flex flex-row flex-wrap-reverse justify-center items-center w-screen h-screen'>
           <div className='m-28'>
             <h1 className='text-5xl font-bold'>
               Hi, i'm<br /><span className='text-blue-600 text-6xl'>Alexandre Marquez</span>
@@ -27,7 +27,7 @@ export default function Landing() {
               <div className="icon cursor-pointer hover:opacity-80 text-zinc-900"><a href="https://linkedin.com" target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLinkedin} /></a></div>
             </div>
           </div>
-          <div className='photo m-28'>
+          <div className='photo'>
             <img 
               src={Photo}
               alt=""

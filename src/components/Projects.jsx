@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card'
+import SmartTrafficImage from '../assets/img/traffic.png'
 
 export default function Projects() {
   return (
@@ -15,16 +16,16 @@ export default function Projects() {
           <img src="https://via.placeholder.com/300" className='w-64 rounded-3xl' alt="" />
         </Card>
         <Card width="400px">
-          <h1 className='text-3xl font-bold text-primary'>Anviz Controller</h1>
+          <h1 className='text-3xl font-bold text-primary'>Smart Traffic Light</h1>
           <span className='my-4'>
-            Communicate and obtain the records of your access to your Anviz biometric devices.
+            Design of smart traffic lights, using machine learning and raspberry PI. This project is a proposal for the mayor of Carirubana, in Punto Fijo, Venezuela.
           </span>
-          <img src="https://via.placeholder.com/300" className='w-64 rounded-3xl' alt="" />
+          <img src={SmartTrafficImage} className='w-64 rounded-3xl' alt="" />
         </Card>
         <Card width="400px">
-          <h1 className='text-3xl font-bold text-primary'>Crypto tracker</h1>
+          <h1 className='text-3xl font-bold text-primary'>Pescaderia Lolymar (WIP)</h1>
           <span className='my-4'>
-            Track your trusted cryptocurrencies and study their behavior
+            Design of a web page for a local fishmonger.
           </span>
           <img src="https://via.placeholder.com/300" className='w-64 rounded-3xl' alt="" />
         </Card>
